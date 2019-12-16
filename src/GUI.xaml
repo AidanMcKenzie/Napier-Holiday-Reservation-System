@@ -1,0 +1,51 @@
+﻿<Window x:Class="Coursework2.GUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coursework2"
+        mc:Ignorable="d"
+        Title="GUI" Height="483.4" Width="707">
+    <Grid RenderTransformOrigin="0.497,0.5">
+        <Label x:Name="lblTitle" Content="Holiday Reservation System" HorizontalAlignment="Left" Margin="1,0,0,0" VerticalAlignment="Top" Width="291" Height="39" FontSize="25.333" FontFamily="Tw Cen MT"/>
+        <Button x:Name="btnChangeCust" Content="Change Customer Details" HorizontalAlignment="Left" Margin="162,134,0,0" VerticalAlignment="Top" Width="155" Height="23" Click="btnChangeCust_Click"/>
+        <TextBox x:Name="txtForename" HorizontalAlignment="Left" Height="23" Margin="65,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" TextChanged="txtForename_TextChanged"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="23" Margin="65,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+        <Label x:Name="lblName" Content="Name" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblAddress" Content="Address" HorizontalAlignment="Left" Margin="7,97,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSurname" HorizontalAlignment="Left" Height="23" Margin="162,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblArrival" Content="Arrival Date" HorizontalAlignment="Left" Margin="376,69,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDeparture" Content="Departure Date" HorizontalAlignment="Left" Margin="376,98,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.625,2.038"/>
+        <DatePicker x:Name="dateArrival" HorizontalAlignment="Left" Margin="499,71,0,0" VerticalAlignment="Top" Width="130"/>
+        <DatePicker x:Name="dateDeparture" HorizontalAlignment="Left" Margin="499,99,0,0" VerticalAlignment="Top" Width="130"/>
+        <Label x:Name="lblBooky" Content="BOOKING" HorizontalAlignment="Left" Margin="376,38,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lblCusty" Content="CUSTOMER" HorizontalAlignment="Left" Margin="8,33,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="btnDeleteCustomer" Content="Delete" HorizontalAlignment="Left" Margin="268,203,0,0" VerticalAlignment="Top" Width="50" Height="29" Click="btnDeleteCustomer_Click"/>
+        <Button x:Name="btnCreate" Content="Create Customer" HorizontalAlignment="Left" Margin="26,134,0,0" VerticalAlignment="Top" Width="109" Click="btnCreate_Click" Height="23"/>
+        <Button x:Name="btnCreateBook" Content="Create Booking" HorizontalAlignment="Left" Margin="381,411,0,0" VerticalAlignment="Top" Width="109" Click="btnCreateBook_Click"/>
+        <Button x:Name="btnDeleteBook" Content="Delete" HorizontalAlignment="Left" Margin="269,246,0,0" VerticalAlignment="Top" Width="49" Height="29" Click="btnDeleteBook_Click"/>
+        <Label x:Name="lblAmend" Content="VIEW AND DELETE DETAILS" HorizontalAlignment="Left" Margin="9,173,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="btnChangeBook" Content="Change Booking Details" HorizontalAlignment="Left" Margin="528,411,0,0" VerticalAlignment="Top" Width="155" Height="20"/>
+        <TextBox x:Name="txtChangeCust" HorizontalAlignment="Left" Height="28" Margin="92,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" TextChanged="txtForename_TextChanged"/>
+        <TextBox x:Name="txtChangeBook" HorizontalAlignment="Left" Height="29" Margin="93,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" TextChanged="txtForename_TextChanged"/>
+        <Button x:Name="btnViewCust" Content="View" HorizontalAlignment="Left" Margin="222,203,0,0" VerticalAlignment="Top" Width="41" Height="29" Click="btnViewCust_Click"/>
+        <Button x:Name="btnViewBook" Content="View" HorizontalAlignment="Left" Margin="221,246,0,0" VerticalAlignment="Top" Width="42" Height="29" Click="btnViewBook_Click"/>
+        <Label x:Name="lblCustViewDel" Content="Customer" HorizontalAlignment="Left" Margin="11,206,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblBookViewDel" Content="Booking" HorizontalAlignment="Left" Margin="11,247,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblExtras" Content="EXTRAS" HorizontalAlignment="Left" Margin="376,271,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lblMeals" Content="Evening Meals" HorizontalAlignment="Left" Margin="381,306,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblBreakfast" Content="Breakfast" HorizontalAlignment="Left" Margin="381,337,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblCar" Content="Car Hire" HorizontalAlignment="Left" Margin="381,368,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkMeals" Content="" HorizontalAlignment="Left" Margin="499,312,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkBreakfast" Content="" HorizontalAlignment="Left" Margin="499,343,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chkCar" Content="" HorizontalAlignment="Left" Margin="499,374,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtGuestName" HorizontalAlignment="Left" Height="23" Margin="499,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="txtGuestPassport" HorizontalAlignment="Left" Height="23" Margin="499,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="txtGuestAge" HorizontalAlignment="Left" Height="23" Margin="589,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <Button x:Name="btnGuest1" Content="Add a Guest" HorizontalAlignment="Left" Margin="477,230,0,0" VerticalAlignment="Top" Width="76" Height="24" Click="btnGuest1_Click"/>
+        <Label x:Name="lblGuestName" Content="Guest Name" HorizontalAlignment="Left" Margin="376,136,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPassport" Content="Guest Passport" HorizontalAlignment="Left" Margin="376,167,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblGuestAge" Content="Guest Age" HorizontalAlignment="Left" Margin="376,203,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

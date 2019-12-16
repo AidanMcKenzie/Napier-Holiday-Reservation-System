@@ -1,0 +1,14 @@
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\bin\Debug\Coursework2.exe.config
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\bin\Debug\Coursework2.exe
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\bin\Debug\Coursework2.pdb
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\Coursework2.csprojResolveAssemblyReference.cache
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\GUI.g.cs
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\App.g.cs
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\Coursework2_MarkupCompile.cache
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\Coursework2_MarkupCompile.lref
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\GUI.baml
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\Coursework2.g.resources
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\Coursework2.Properties.Resources.resources
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\Coursework2.csproj.GenerateResource.Cache
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\Coursework2.exe
+C:\Users\Aidan\Documents\Uni Work\Year 2\Trimester 1\Software Development 2\Coursework 2\Coursework2\Coursework2\obj\Debug\Coursework2.pdb
